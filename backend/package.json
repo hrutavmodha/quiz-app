@@ -1,0 +1,30 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "server.js",
+    "keywords": [
+        "node",
+        "express",
+        "api",
+        "backend",
+        "server",
+        "rest"
+    ],
+    "type": "module",
+    "author": "Hrutav Modha",
+    "license": "MIT",
+    "description": "Backend server for the application of quiz app",
+    "dependencies": {
+        "dotenv": "^17.2.0",
+        "express": "^5.1.0",
+        "express-mongo-sanitize": "^2.2.0",
+        "express-validator": "^7.2.1",
+        "fs": "^0.0.1-security",
+        "helmet": "^8.1.0",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.16.4",
+        "morgan": "^1.10.0",
+        "path": "^0.12.7",
+        "xss-clean": "^0.1.4"
+    }
+}
